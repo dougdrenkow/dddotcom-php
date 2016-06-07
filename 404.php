@@ -2,7 +2,7 @@
 
 /* NotFound.php: 404 requests redirected here by .htaccess file. User is informed of file not found, then instructed to use menu or search. */
 
-include("etc.inc");
+include("inc.inc");
 
 $cxn = mysqli_connect($host,$user,$password,$database)
 or die ("Could not connect to server.");
