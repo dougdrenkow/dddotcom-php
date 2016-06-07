@@ -4,7 +4,7 @@
 
 Overall, prioritize experience (particularly for small viewports) -- 1) Show work, 2) Show "big name" clients, and then 3) Tell about me -- show value I bring to the table. */
 
-include("etc.inc");
+include("inc.inc");
 
 $cxn = mysqli_connect($host,$user,$password,$database)
 or die ("Could not connect to server.");
