@@ -1,6 +1,6 @@
 <?php
 
-include("etc.inc");
+include("inc.inc");
 
 $cxn = mysqli_connect($host,$user,$password,$database)
 or die ("Couldn't connect to server.");
